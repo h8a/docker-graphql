@@ -30,6 +30,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t heri8a/docker-graphql:0.0.2 .
+        docker build -t heri8a/docker-graphql:latest .
 
     - name: Push Docker Image
       run: |
